@@ -1,6 +1,5 @@
 {
   "name": "root",
-  "private": true,
   "license": "MIT",
   "scripts": {
     "postinstall": "patch-package && npm run bootstrap",
@@ -95,6 +94,7 @@
     "@react-financial-charts/stories": "file:packages/stories",
     "@react-financial-charts/tooltip": "file:packages/tooltip",
     "@react-financial-charts/utils": "file:packages/utils",
-    "react-financial-charts": "file:packages/charts"
+    "react-financial-charts": "file:packages/charts",
+    "semver": "^7.3.8"
   }
 }
